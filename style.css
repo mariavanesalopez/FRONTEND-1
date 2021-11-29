@@ -1,0 +1,452 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/****Estilo de fuente****/
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/************Barra superior de  color negra********/
+.barra-superior {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: black;
+  color: white;
+  height: 30px;
+}
+
+.barra-superior p {
+  display: flex;
+  font-weight: bold;
+  margin-left: 70px;
+  font-size: small;
+}
+
+.seccion-opciones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.barra-superior-derecha {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  width: 70%;
+}
+
+/**************Barra inferior color naranja***********/
+
+.barra-inferior {
+  display: flex;
+  background-color: #f0a83e;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.logo p {
+  color: white;
+}
+
+.logo img {
+  margin: 4px;
+}
+
+.navegacion {
+  display: flex;
+  flex-grow: 1;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-grow: 1;
+  margin-right: 20px;
+}
+
+li {
+  margin: 10px;
+  width: 10%;
+  font-size: large;
+  font-weight: bold;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+}
+
+li .fad.fa-paw {
+  color: white;
+  margin: 3px;
+}
+
+/********Imagen Comedero de Fondo**********/
+
+.imagen-fondo {
+  background-image: url(./img/imagen-fondo-comedero.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 700px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.texto-comedero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 20px;
+  text-align: center;
+  margin-right: 90px;
+  height: 300px;
+}
+
+.texto-comedero h2 {
+  background-color: white;
+  padding: 10px;
+  font-size: x-large;
+}
+
+.texto-comedero p {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.texto-comedero input {
+  text-align: center;
+  width: 10%;
+  color: white;
+  font-size: medium;
+  font-weight: bold;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: #f0a83e;
+  border-style: none;
+}
+
+/*********Seccion Central del body*********/
+.seccion-central {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.seccion-central h1 {
+  font-size: xx-large;
+}
+
+.barra-central {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.barra-central a {
+  margin: 5px;
+}
+
+.barra-central a:hover {
+  background-color: turquoise;
+  font-size: large;
+  margin: 3px;
+}
+
+/*********Cards Central********/
+.contenedor-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contacto h2 {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 10px;
+}
+
+.body-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.body-form input {
+  margin-bottom: 10px;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.botones-form {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 7px;
+  border-style: none;
+}
+
+.botones-form input {
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  width: 50%;
+  padding: 10px;
+  margin: 7px;
+}
+
+#reset {
+  background-color: #8a8787;
+}
+
+#enviar {
+  background-color: #f0a83e;
+}
+
+/********Barra anterior al Footer*******/
+.barra-footer {
+  display: flex;
+  background-color: #f0a83e;
+  margin-top: 12px;
+  padding: 7px;
+}
+
+.sobre {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.sobre img {
+  width: 12%;
+  margin-left: 20px;
+}
+
+.sobre p {
+  color: white;
+  margin-left: 15px;
+}
+
+.form-suscribirme {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.form-suscribirme input {
+  padding: 10px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+#texto-email {
+  width: 20%;
+}
+
+#boton-usuario {
+  background-color: black;
+  color: white;
+}
+
+/***********Footer***********/
+
+.contenedor {
+  background-color: #3c2313;
+  width: 100%;
+  height: 500px;
+  display: flex;
+}
+
+.barra-autor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 130%;
+}
+
+.logo-contacto {
+  width: 60%;
+  height: 500px;
+}
+.footer-contacto {
+  display: flex;
+  margin-top: 70px;
+  margin-left: 50px;
+  color: white;
+}
+
+.footer-contacto img {
+  width: 50px;
+  height: 70px;
+}
+
+.contacto {
+  margin-left: 15px;
+}
+
+.contacto p {
+  font-size: small;
+  margin-top: -2px;
+}
+
+.logo-cat-dog {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 500px;
+  width: 40%;
+  padding-right: 20px;
+}
+
+footer .logo p {
+  color: #f0a83e;
+}
+
+@media screen and (max-width: 600px) {
+  .barra-superior p {
+    font-size: 10px;
+  }
+
+  .seccion-opciones {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .barra-superior-derecha {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .barra-inferior {
+    display: flex;
+  }
+
+  .logo {
+    font-size: small;
+  }
+
+  .logo h3 {
+    font-size: small;
+  }
+
+  .logo img {
+    margin-top: 7px;
+  }
+
+  .fas.fa-bars {
+    font-size: x-large;
+    margin-top: 17px;
+  }
+
+  ul {
+    display: none;
+  }
+
+  .imagen-fondo {
+    background-image: url(./img/imagen-fondo-comedero.png);
+    background-size: 200%;
+    height: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .texto-comedero {
+    width: 60%;
+    font-size: 10px;
+    height: 200px;
+    margin-top: 10px;
+  }
+
+  .texto-comedero h2 {
+    font-size: small;
+  }
+
+  .texto-comedero input {
+    width: 55%;
+    margin-top: 10px;
+    font-size: small;
+  }
+
+  .seccion-central h1 {
+    font-size: medium;
+  }
+
+  .contenedor-cards {
+    display: block;
+  }
+
+  .barra-footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #texto-email {
+    width: 40%;
+  }
+
+  .logo-cat-dog {
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-grow: 1;
+  }
+
+  footer .logo {
+    font-size: 8px;
+    padding-right: 5px;
+  }
+
+  .contacto h3 p {
+    font-size: small;
+  }
+  .barra-autor p {
+    font-size: xx-small;
+  }
+}
